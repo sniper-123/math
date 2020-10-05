@@ -1,39 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-	
-    <h2>welcome :<span id="name"> unknown</span></h4>
-    <h2>score :<span id="score">00</span></h4>
-    	<button onclick="clearPoints()">clear points
-    	</button>
-    	<button>clear all data</button>
+  <h1>Find a book</h1>
+  <input id="book" type="text" onchange="find()">
+  <button onclick="find()">Find a book</button>
+  <div id="Books">
+  </div>
 
-    	 <div>
-    	 	<span id="first">0	
-    	 	</span>
-    	 	<span id="operator">+	
-    	 	</span>
-    	 	<span id="second">0	
-    	 	</span>
-    	 	<span id="equal">=	
-    	 	</span>
-    	 </div>
-
-
-
-
-
-
-
-
-    	<script type="text/javascript">
-    		function clearPoints() {
-    		
-    		}
-    	</script>
-
+  <script src="js/book.js"></script>
 </body>
 </html>
